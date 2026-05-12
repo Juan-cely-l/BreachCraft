@@ -1,0 +1,21 @@
+[project]
+name = "automation-scripts"
+version = "0.1.0"
+description = "Security automation scripts for BreachCraft labs"
+readme = "../README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.13.5",
+    "alive-progress>=3.3.0",
+    "beautifulsoup4>=4.14.3",
+    "colorama>=0.4.6",
+    "lxml>=6.1.0",
+    "requests>=2.33.1",
+    "rich>=15.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "ruff>=0.15.12",
+]

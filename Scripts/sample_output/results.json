@@ -1,0 +1,44 @@
+{
+  "target": "127.0.0.1",
+  "mode": "ip",
+  "timestamp": "2026-05-11T18:26:14",
+  "nmap": {
+    "success": true,
+    "hosts": [
+      {
+        "ip": "127.0.0.1",
+        "hostname": "localhost",
+        "open_ports": [
+          {
+            "port": 25,
+            "service": "smtp",
+            "version": "Postfix smtpd"
+          },
+          {
+            "port": 631,
+            "service": "ipp",
+            "version": "CUPS 2.4"
+          },
+          {
+            "port": 7070,
+            "service": "realserver",
+            "version": ""
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "reverse_dns": {
+    "success": true,
+    "records": [
+      "localhost.",
+      "kubernetes.docker.internal."
+    ],
+    "error": null
+  },
+  "whois": {
+    "success": false,
+    "error": "command not found: whois"
+  }
+}
